@@ -1,0 +1,9 @@
+//será executado pelo menos uma unica vez
+var x = 1;
+
+do {
+	document.write( x + "<br>"); 
+  
+  x = x +2;
+  
+} while (x <= 10);
