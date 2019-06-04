@@ -1,0 +1,20 @@
+Array de Arrays
+
+var automoveis = Array();
+
+automoveis['carros'] = Array();
+automoveis['motos'] = Array();
+
+automoveis['carros'][1] = 'Fiat Palio ';
+automoveis['carros'][2] = 'Fiat Punto ';
+automoveis['carros'][3] = 'Honda Civic ';
+automoveis['carros'][4] = 'Honda Fit ';
+
+automoveis['motos'][1] = 'Yamaha Fazer YS 250 ';
+automoveis['motos'][2] = 'Yamaha factor ';
+automoveis['motos'][3] = 'CG 150 ';
+automoveis['motos'][4] = 'Honda Freway ';
+
+document.write(automoveis['carros'][3]);
+
+document.write(automoveis['motos'][2]);
