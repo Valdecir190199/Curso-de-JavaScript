@@ -1,0 +1,21 @@
+Variaveis, Concatenadores e funções
+
+
+var texto = "Curso de JavaScript ";
+
+var inteiro = -12;
+
+var valorFracionado = 5.75;
+
+var teste = false;
+
+alert(texto);
+
+console.log(texto);
+
+var nome = prompt ("Digite seu nome");
+var idade = prompt("Digite sua idade");
+var profissao = prompt("Digite sua profissão");
+
+document.write('Olá ' +nome +', você tem ' + idade + ' anos e sua profissão é '+ profissao);
+
